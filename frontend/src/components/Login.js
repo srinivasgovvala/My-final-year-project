@@ -12,7 +12,7 @@ const Login = () => {
 
     // Sending login request to the backend
     try {
-      const response = await fetch("https://my-final-year-project-pnxd.onrender.com", {
+      const response = await fetch("https://my-final-year-project-pnxd.onrender.com/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
