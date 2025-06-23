@@ -11,7 +11,7 @@ const Register = () => {
     e.preventDefault();
 
     // Send a POST request to the backend for registration
-    const response = await fetch("http://localhost:5001/register", {
+    const response = await fetch("https://my-final-year-project-pnxd.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
